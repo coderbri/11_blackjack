@@ -1,0 +1,24 @@
+## Project Structure
+
+```
+
+11_blackjack/
+├── python_version/              # Original terminal-based Blackjack game
+│   ├── main.py
+│   ├── art.py
+│
+├── web_version/                 # JS-based browser version for GitHub Pages
+│   ├── index.html
+│   ├── index.js
+│   ├── style.css
+│
+├── resources/                   # For visual aids, planning materials, assets
+│   └── Blackjack_Flowchart.pdf
+│
+├── dev_notes/                   # My development notes, conversion logic, ideas
+│   └── notes.md
+│
+├── README.md
+└── .gitignore                   # To ignore `.DS_Store`, `__pycache__/`, etc.
+
+```
