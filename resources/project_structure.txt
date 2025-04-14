@@ -7,7 +7,7 @@
 │   ├── main.py
 │   ├── art.py
 │
-├── web_version/                 # JS-based browser version for GitHub Pages
+├── docs/                       # JS-based browser version for GitHub Pages
 │   ├── index.html
 │   ├── index.js
 │   ├── style.css
