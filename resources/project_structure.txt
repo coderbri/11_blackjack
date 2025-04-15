@@ -4,19 +4,26 @@
 
 11_blackjack/
 ├── python_version/              # Original terminal-based Blackjack game
-│   ├── main.py
-│   ├── art.py
+│   └── main.py
+│   └── art.py
 │
 ├── docs/                       # JS-based browser version for GitHub Pages
+│   ├── 404.html
 │   ├── index.html
 │   ├── index.js
-│   ├── style.css
+│   ├── assets/
+│       └── blackjack_favicon.ico
+│   └── styles/
+│       └── style.css
+│       └── 404.css
 │
 ├── resources/                   # For visual aids, planning materials, assets
 │   └── Blackjack_Flowchart.pdf
 │
 ├── dev_notes/                   # My development notes, conversion logic, ideas
-│   └── notes.md
+│   └── event-listeners-notes.md
+│   └── logic-conversion-notes.md
+│   └── testConversion.js
 │
 ├── README.md
 └── .gitignore                   # To ignore `.DS_Store`, `__pycache__/`, etc.
