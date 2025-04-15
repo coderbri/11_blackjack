@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+:root {
+    --main-font: 'VT323', monospace;
+
+    --nord0-black-clr: #2E3440;
+    --nord1-darker-grey-clr: #3B4252;
+    --nord4-dark-grey-clr: #D8DEE9;
+    --nord5-grey-white-clr: #E5E9F0;
+    --nord6-white-clr: #ECEFF4;
+    --nord7-green-clr: #8FBCBB;
+    --nord8-teal-clr: #88C0D0;
+    --nord9-blue-clr: #81A1C1;
+    --nord11-red-clr: #BF616A;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--nord0-black-clr);
+    font-family: var(--main-font);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.terminal {
+    color: var(--nord11-red-clr) !important;
+    text-align: left;
+    padding: 2rem;
+    max-width: 600px;
+    background-color: var(--nord1-darker-grey-clr);
+    border-left: 4px solid var(--nord11-red-clr);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.error-code {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.error-message {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.hint {
+    font-size: 1.2rem;
+}
+
+a {
+    color: var(--nord9-blue-clr);
+    text-decoration: underline;
+}

@@ -84,7 +84,7 @@ The objective of Blackjack is to have a hand that totals as close to 21 as possi
 ### Live Demo
 
 You can play the browser version directly here:
-[Play Blackjack in your browser (GitHub Pages)](#).
+[Play Blackjack in your browser (GitHub Pages)](https://coderbri.github.io/11_blackjack/).
 
 Note: The web version replicates the Python logic in JavaScript to simulate the same game experience visually.
 
